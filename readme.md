@@ -2,7 +2,7 @@
 
 **A simple demonstration of all the named CSS colour values.**
 
-## [Live preview](https://danedwardsdeveloper.github.io/CSS-Named-Colours/)
+## [Live preview](https://github.com/danedwardsdeveloper/CSS-Named-Colours/blob/main/assets/images/screenshot.png)
 
 [!CSS colours screenshot](./assets/images/screenshot.png)
 
