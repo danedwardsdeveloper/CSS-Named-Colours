@@ -2,9 +2,9 @@
 
 **A simple demonstration of all the named CSS colour values.**
 
-## [Live preview](https://github.com/danedwardsdeveloper/CSS-Named-Colours/blob/main/assets/images/screenshot.png)
+## [Live preview](https://danedwardsdeveloper.github.io/CSS-Named-Colours/)
 
-[!CSS colours screenshot](./assets/images/screenshot.png)
+![CSS colours screenshot](./assets/images/screenshot.png)
 
 - Uses column-count for layout. I recently discovered this CSS feature, and it's great for creating responsive sites with only a few lines of code.
 - Uses JavaScript to create the colour cards from an array of named colours
