@@ -1,0 +1,76 @@
+$border-radius: 0.4rem;
+$grey: grey;
+$gap: 0.6rem;
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  header {
+    text-align: center;
+  }
+  h1 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    color: whitesmoke;
+  }
+  p {
+    font-size: 1.2em;
+    margin: 0 0 1em 0;
+    color: lightgray;
+  }
+}
+
+main {
+  column-count: 6;
+  @media screen and (max-width: 840px) {
+    column-count: 4;
+  }
+  @media screen and (max-width: 600px) {
+    column-count: 3;
+  }
+  margin: 0 $gap;
+  padding: 0;
+  column-gap: $gap;
+  row-gap: $gap;
+}
+
+button.colour-card {
+  margin: 0;
+  margin-bottom: $gap;
+  padding: 0;
+  border: none;
+  border-radius: $border-radius;
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  break-inside: avoid;
+  &:hover {
+    border: 2px solid whitesmoke;
+  }
+  &:active {
+    border: 2px solid forestgreen;
+  }
+  .colour-label {
+    text-align: center;
+    font-weight: 600;
+    background-color: rgba(lightgrey, 0.8);
+    width: 100%;
+    padding: 0.4rem 0.8rem;
+    line-height: 1.6;
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+    @media screen and (max-width: 840px) {
+      font-size: 0.825em;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 0.7em;
+    }
+  }
+}

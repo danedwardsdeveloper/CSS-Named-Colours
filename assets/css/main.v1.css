@@ -1,0 +1,85 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+body header {
+  text-align: center;
+}
+body h1 {
+  font-size: 3em;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  color: whitesmoke;
+}
+body p {
+  font-size: 1.2em;
+  margin: 0 0 1em 0;
+  color: lightgray;
+}
+
+main {
+  -moz-column-count: 6;
+       column-count: 6;
+  margin: 0 0.6rem;
+  padding: 0;
+  -moz-column-gap: 0.6rem;
+       column-gap: 0.6rem;
+  row-gap: 0.6rem;
+}
+@media screen and (max-width: 840px) {
+  main {
+    -moz-column-count: 4;
+         column-count: 4;
+  }
+}
+@media screen and (max-width: 600px) {
+  main {
+    -moz-column-count: 3;
+         column-count: 3;
+  }
+}
+
+button.colour-card {
+  margin: 0;
+  margin-bottom: 0.6rem;
+  padding: 0;
+  border: none;
+  border-radius: 0.4rem;
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+button.colour-card:hover {
+  border: 2px solid whitesmoke;
+}
+button.colour-card:active {
+  border: 2px solid forestgreen;
+}
+button.colour-card .colour-label {
+  text-align: center;
+  font-weight: 600;
+  background-color: rgba(211, 211, 211, 0.8);
+  width: 100%;
+  padding: 0.4rem 0.8rem;
+  line-height: 1.6;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}
+@media screen and (max-width: 840px) {
+  button.colour-card .colour-label {
+    font-size: 0.825em;
+  }
+}
+@media screen and (max-width: 600px) {
+  button.colour-card .colour-label {
+    font-size: 0.7em;
+  }
+}/*# sourceMappingURL=main.v1.css.map */
